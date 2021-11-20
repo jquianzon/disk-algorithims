@@ -108,7 +108,7 @@ const start_app = () => {
       const repeat_lower = repeat.toLowerCase()
 
       if (repeat_lower === 'n') {
-        console.log("Program will not terminate..")
+        console.log("Program will now terminate..")
         rl.close()
       } else if (repeat_lower === 'y') {
         start_app()
