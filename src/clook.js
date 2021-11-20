@@ -72,11 +72,11 @@ function CLOOK(arr, head) {
     head = cur_track
   }
 
-  console.log(`Total head movement: ${seek_count}`)
-
   // Seek sequence would be the same
   // as request array sequence
-  console.log(`Seek Sequence is ${arr.join(' -> ')}`)
+  console.log(`Total head movement: ${arr.join(' -> ')}`)
+
+  console.log(`Seek time: ${seek_count}`)
 }
 
 module.exports = CLOOK
